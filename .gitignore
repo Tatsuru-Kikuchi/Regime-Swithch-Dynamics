@@ -59,3 +59,10 @@ htmlcov/
 # Environment
 .env
 .venv
+
+# Validation data (may be large)
+data/china_shock/raw/*
+data/minimum_wage/raw/*
+
+# Keep processed data structure
+!data/*/processed/.gitkeep
